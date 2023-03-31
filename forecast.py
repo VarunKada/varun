@@ -50,7 +50,6 @@ def forecast(Week, DrugName):
     plt.grid(True)
     st.pyplot()
     
-    print(prediction)
     return prediction
 
 
