@@ -3,12 +3,11 @@
 import numpy as np
 import pickle
 import pandas as pd
-import matplotlib
 import matplotlib.pyplot as plt
 import streamlit as st
 from statsmodels.tsa.arima.model import ARIMA
 from datetime import date
-from PIL import Image
+
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 # Specify the title and logo for the web page.
