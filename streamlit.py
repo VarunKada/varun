@@ -9,9 +9,9 @@ from PIL import Image
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 # Specify the title and logo for the web page.
-st.set_page_config(page_title='Medical Inventory Optimization')
-                               
-st.set_page_config(page_icon = Image.open('C:/Users/varun/OneDrive/Desktop/Project 1/eth.jpg'))
+st.set_page_config(page_title='Medical Inventory Optimization',
+                   page_icon = 'https://supplementfactoryuk.com/wp-content/uploads/2019/06/xCapsugel-Products-ConiSnap-Hard-A-600x420.jpg.pagespeed.ic.q5ccYLXVW1.webp',
+                   layout="wide")
 
 #Specify the title
 st.title('MEDICAL INVENTORY OPTIMIZATION')
@@ -20,7 +20,7 @@ st.title('MEDICAL INVENTORY OPTIMIZATION')
 # Add a sidebar to the web page. 
 st.markdown('---')
 # Sidebar Configuration
-st.sidebar.image('C:/Users/varun/OneDrive/Desktop/Project 1/eth.jpg', width = 250)
+st.sidebar.image('https://lucknow.apollohospitals.com/wp-content/uploads/2021/09/kidney-transplant2.jpg', width=200)
 st.sidebar.markdown('Medical Inventory Optimization')
 st.sidebar.markdown('Maximizing inventory efficiency')
 st.sidebar.markdown('We can predict the medicine quantity in upcoming weeks') 
