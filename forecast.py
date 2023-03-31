@@ -3,6 +3,7 @@
 import numpy as np
 import pickle
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 import streamlit as st
 from statsmodels.tsa.arima.model import ARIMA
